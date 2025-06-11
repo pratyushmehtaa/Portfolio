@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'tsparticles/react',
+        '@tsparticles/react',
         'tsparticles',
         'react-icons',
         'typewriter-effect',
