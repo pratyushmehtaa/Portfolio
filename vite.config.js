@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/',
   build: {
     rollupOptions: {
-      external: ['@tsparticles/react', 'tsparticles'],
+      external: ['@tsparticles/react', 'tsparticles', 'react-icons'],
     },
   },
 })
