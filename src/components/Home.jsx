@@ -1,6 +1,5 @@
 import React from 'react';
 import { roles } from './Summary-data/data';
-import { HiHandRaised } from "react-icons/hi";
 import Typewriter from 'typewriter-effect';
 import { RiProfileLine } from "react-icons/ri";
 import { FiLinkedin, FiGithub, FiInstagram } from "react-icons/fi";
@@ -125,7 +124,7 @@ const Home = () => {
       <div className="summary-container" id = "home">
         <h2 className="intro">
           <span>Hello there</span>
-          <HiHandRaised />
+          
           <span>I am</span>
         </h2>
 
