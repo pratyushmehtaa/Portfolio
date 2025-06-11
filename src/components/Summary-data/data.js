@@ -1,0 +1,1 @@
+export const roles = ["Web Developer", "Programmer", "Gamer"]
