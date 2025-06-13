@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import ParticleBackground from "./components/ParticlesBackground";
 import Home from "./components/Home";
 import Education from "./components/Education";
+import SkillsPlain from "./components/SkillsPlain";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Home />
         <Education />
+        <SkillsPlain />
       </div>
     </div>
   );
