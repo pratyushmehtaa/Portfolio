@@ -143,7 +143,7 @@ const Home = () => {
 
         <div className="resume-button-wrapper">
           <button className="resume-button" title="View Resume">
-            <a href="/Sanjan_Vadi_Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="Pratyush_CV2.pdf" target="_blank" rel="noopener noreferrer">
               <span>View Resume</span> <RiProfileLine />
             </a>
           </button>
@@ -153,17 +153,17 @@ const Home = () => {
           <h4 className="find-me">Find me on :</h4>
           <ul className="social-links">
             <li title="LinkedIn">
-              <a href="https://www.linkedin.com/in/sanjanvadi/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/pratyush-mehta5656/" target="_blank" rel="noopener noreferrer">
                 <FiLinkedin />
               </a>
             </li>
             <li title="GitHub">
-              <a href="https://github.com/sanjanvadi" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/pratyushmehtaa" target="_blank" rel="noopener noreferrer">
                 <FiGithub />
               </a>
             </li>
             <li title="Instagram">
-              <a href="https://www.instagram.com/sanjan_vadi/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/pratyush09_/" target="_blank" rel="noopener noreferrer">
                 <FiInstagram />
               </a>
             </li>
