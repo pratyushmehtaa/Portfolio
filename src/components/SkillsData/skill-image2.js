@@ -8,16 +8,17 @@ import postman from './svg/postman.svg';
 import postgresql from './svg/postgresql.svg';
 import python from './svg/python.svg';
 import react from './svg/react.svg';
-import vite from './svg/vitejs.svg';
+import vitejs from './svg/vitejs.svg';
 import c from './svg/C.svg';
 import nodejs from './svg/nodejs.svg';
 import express from './svg/expressjs.svg';
 import nextjs from './svg/nextjs.svg';
 import mysql from './svg/mysql.svg';
 import googlecollab from './svg/googlecollab.svg';
-export const skillsImage = (skill) => {
-  const skillID = skill.toLowerCase();
-  switch (skillID) {
+
+export const skillsImage2 = (skill) => {
+  const skillID2 = skill.toLowerCase();
+  switch (skillID2) {
     case 'aws':
       return aws;
     case 'c++':
@@ -37,8 +38,8 @@ export const skillsImage = (skill) => {
       return python;
     case 'react':
       return react;
-    case 'vite':
-      return vite;
+    case 'vitejs':
+      return vitejs;
     case 'c':
       return c;
     case 'postman':
@@ -51,7 +52,7 @@ export const skillsImage = (skill) => {
       return nextjs;
     case 'mysql':
       return mysql;
-    case 'google collab':
+    case 'googlecollab':
       return googlecollab;
 
     default:
