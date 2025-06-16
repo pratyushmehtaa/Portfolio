@@ -211,9 +211,9 @@ const Navbar = () => {
               </a>
               {aboutOpen && (
                 <div className="dropdown">
-                  <a href="#summary">Summary</a>
                   <a href="#education">Education</a>
-                  <a href="#history">History</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#experience">Experience</a>
                 </div>
               )}
             </li>
