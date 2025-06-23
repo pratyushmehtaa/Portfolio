@@ -8,7 +8,7 @@ import "./SkillsPlain.css";
 
 function SkillsPlain() {
   return (
-    <div id="skills-plain" className="skills-wrapper">
+    <div id="skills" className="skills-wrapper">
       <div className="glow-bg"></div>
 
       <div className="skills-divider">
