@@ -32,7 +32,7 @@ const GlowCard = ({ children }) => {
   return (
     <div
       ref={cardRef}
-      className="glow-card-wrapper relative w-full rounded-xl border border-white overflow-hidden transition-all duration-300"
+      className="glow-card-wrapper relative w-full rounded-xl border border-white overflow-visible transition-all duration-300"
     >
       {/* Glow border layer */}
       <div className="glow-outline pointer-events-none absolute inset-0 rounded-xl z-10" />
