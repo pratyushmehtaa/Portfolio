@@ -2,6 +2,9 @@
 const nodemailer = require("nodemailer");
 
 exports.handler = async (event) => {
+    console.log("GMAIL_USER:", process.env.GMAIL_USER);
+console.log("GMAIL_PASS length:", process.env.GMAIL_PASS?.length);
+
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: JSON.stringify({ error: "Method not allowed" }) };
   }
@@ -52,8 +55,6 @@ exports.handler = async (event) => {
     }),
   };
 }
-console.log("GMAIL_USER:", process.env.GMAIL_USER);
-console.log("GMAIL_PASS length:", process.env.GMAIL_PASS?.length);
 
 
 };
