@@ -100,12 +100,42 @@ button {
   gap: 10px;
   align-items: center;
   justify-content: center;
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 button:hover {
   background: linear-gradient(to right, #8b5cf6, #6366f1);
   transform: scale(1.02);
+}
+
+/* New Status Message Styles */
+.status-msg {
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
+}
+
+.status-msg.success {
+  background: rgba(56, 189, 248, 0.2);
+  color: #22c55e; /* green */
+  border: 1px solid #22c55e;
+}
+
+.status-msg.error {
+  background: rgba(248, 113, 113, 0.2);
+  color: #ef4444; /* red */
+  border: 1px solid #ef4444;
+}
+
+.status-msg.info {
+  background: rgba(250, 204, 21, 0.2);
+  color: #facc15; /* yellow */
+  border: 1px solid #facc15;
 }
 
 @media (max-width: 768px) {
