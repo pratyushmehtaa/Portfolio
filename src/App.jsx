@@ -5,6 +5,7 @@ import Education from "./components/Education";
 import SkillsPlain from "./components/SkillsPlain";
 import ProjectCard from "./components/ProjectCards"
 import Experience from "./components/Experience";
+import GetInTouch from "./components/GetInTouch";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <SkillsPlain />
         <ProjectCard />
         <Experience />
+        <GetInTouch />
        
       </div>
     </div>

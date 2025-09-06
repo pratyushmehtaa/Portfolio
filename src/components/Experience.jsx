@@ -74,7 +74,7 @@ const Experience = () => {
   <h2 className="projects-title">My Experience</h2>
   <div className="projects-bar" />
 </div>
-
+ 
 
       <div className="timeline">
         {experiences.map((exp, index) => (

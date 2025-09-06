@@ -1,0 +1,116 @@
+.get-in-touch-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 60px 40px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(2, 6, 23, 0.6), rgba(56, 189, 248, 0.08));
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+  color: #e0f2fe;
+  margin: 60px 20px;
+}
+
+.contact-left,
+.contact-right {
+  flex: 1 1 300px;
+  padding: 20px;
+}
+
+.contact-left h2,
+.contact-right h2 {
+  font-size: 2rem;
+  color: #93c5fd;
+  margin-bottom: 10px;
+}
+
+.contact-left p,
+.contact-right p {
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  color: #e0f2fe;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.08);
+  transform: scale(1.02);
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.3);
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+.github {
+  color: #c9d1d9;
+}
+.instagram {
+  color: #e1306c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 14px 16px;
+  border-radius: 10px;
+  color: #e0f2fe;
+  font-size: 1rem;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8;
+}
+
+button {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #8b5cf6, #6366f1);
+  transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+  .get-in-touch-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+}
