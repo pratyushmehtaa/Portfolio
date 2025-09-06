@@ -42,7 +42,15 @@ exports.handler = async (event) => {
 
     return { statusCode: 200, body: JSON.stringify({ success: "Message sent successfully!" }) };
   } catch (error) {
-    console.error("sendMail error:", error);
-    return { statusCode: 500, body: JSON.stringify({ error: "Failed to send message" }) };
-  }
+  console.error("Email error details:", error);
+
+  return {
+    statusCode: 500,
+    body: JSON.stringify({
+      error: "Failed to send message",
+      details: error.message,   // show the exact error
+    }),
+  };
+}
+
 };
