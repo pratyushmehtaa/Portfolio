@@ -52,5 +52,8 @@ exports.handler = async (event) => {
     }),
   };
 }
+console.log("GMAIL_USER:", process.env.GMAIL_USER);
+console.log("GMAIL_PASS length:", process.env.GMAIL_PASS?.length);
+
 
 };
